@@ -45,6 +45,9 @@ type Balancer struct {
 	done chan *Worker
 }
 
+func main() {
+}
+
 func (b *Balancer) balance(work chan Request) {
 	for {
 		select {
@@ -56,9 +59,34 @@ func (b *Balancer) balance(work chan Request) {
 	}
 }
 
+// implementation of heap interface
+
 func (p Pool) Less(i, j int) bool {
 	return p[i].pending < p[j].pending
 }
+
+func (p Pool) Len() int {
+	return len(p)
+}
+
+func (p Pool) Swap(i, j int) {
+	// in place swap
+	p[i], p[j] = p[j], p[i]
+}
+
+func (p *Pool) Push(x interface{}) {
+	*p = append(*p, x.(*Worker))
+}
+
+func (p *Pool) Pop() interface{} {
+	old := *p
+	n := len(old)
+	x := old[n-1]
+	*p = old[0 : n-1]
+	return x
+}
+
+//
 
 // Send Request to worker
 func (b *Balancer) dispatch(req Request) {
