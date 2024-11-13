@@ -1,3 +1,5 @@
+github.com/boriwo/golang/module/foo v0.0.0-20241112162631-ce2b27c3c77c h1:nE1c4Iwm4vs0mZxdJKEduFFZP/8RfODWPfeDS2FOM74=
+github.com/boriwo/golang/module/foo v0.0.0-20241112162631-ce2b27c3c77c/go.mod h1:f2OmD40V/M4LDCdF9LFzILRj0fKxOGKY33gvy+URmck=
 github.com/coreos/go-systemd/v22 v22.5.0/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
@@ -9,8 +11,6 @@ github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINE
 github.com/rs/xid v1.5.0/go.mod h1:trrq9SKmegXys3aeAKXMUTdJsYXVwGY3RLcfgqegfbg=
 github.com/rs/zerolog v1.31.0 h1:FcTR3NnLWW+NnTwwhFWiJSZr4ECLpqCm6QsEnyvbV4A=
 github.com/rs/zerolog v1.31.0/go.mod h1:/7mN4D5sKwJLZQ2b/znpjC3/GQWY/xaDXUM0kKWRHss=
-github.com/boriwo/golang/module/foo v0.0.0-20231023213808-da8e63a5c94b h1:a/u5BF3JzwYw53x4x1y0As4jQB38/kM5lAs7lrDYo+k=
-github.com/boriwo/golang/module/foo v0.0.0-20231023213808-da8e63a5c94b/go.mod h1:i8lGg3JKrkR1hBX0znhB9+XGXJ98jHqtay2i+oOaHBE=
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.12.0 h1:CM0HF96J0hcLAwsHPJZjfdNzs0gftsLfgKt57wWHJ0o=
