@@ -1,7 +1,5 @@
 # A Brief Overview of Go
 
-![gopher](gopher.png)
-
 ## Goals
 
 * introduction to the go programming language (golang) for developers familiar with other languages
